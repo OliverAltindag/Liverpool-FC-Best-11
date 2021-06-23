@@ -19,11 +19,14 @@ view(goal_keeping)
 defensive_action <- read.csv("defensive_action.csv", header = TRUE)
 view(defensive_action)
 
+possession <- read.csv("possession.csv", header = TRUE)
+view(possession)
+
 goals_and_shot_creation <- read.csv("goals_and_shot_creation.csv", header = TRUE)
 view(goals_and_shot_creation)
 ```
 
-##  Goalkeeper
+###  Goalkeeper
 The first step to creating our starting eleven is the goalkeeper and arguably our most important position.  
 
 ```{r Goalkeeper wrangling and graph}
@@ -32,22 +35,42 @@ goal_keeping %>%
 select(Player, GA90) %>%
   ggplot(mapping = aes(fill = Player, y = GA90))+
 geom_histogram(bins = 6, position = "dodge", color = "black") +
+  theme(axis.title.x=element_blank(), 
+        axis.text.x=element_blank(), 
+        axis.ticks.x=element_blank())+  
   labs(title = "Alisson is the Best Liverpool FC Goalkeeper", 
   subtitle = "Alisson lets in less goals per game on average", 
   y = "Goals Scored Against Liverpool FC Per 90 Minutes", 
   x = "", fill = "Player", caption = "Source: Liverpool Premier League Champions 19/20 Complete (2020)")
 ```
 
+###  Defenders
+Liverpool FC will need four defensive minded players to protect the newly selected goalkeeper Alisson.  
+
 ```{r Defenders wrangling and graph}
+defensive_action %>%
+select(Player, Def_3rd)%>%
+  group_by(Player)%>%
+  summarize(Player, Def_3rd)%>%
+ggplot(mapping = aes(y = reorder(Player, +Def_3rd), x = Def_3rd, fill = Player))+
+geom_col(position = "dodge", stat = "identity",  bins = 2)+
+  theme_classic()+
+  labs(title = "Liverpool FC's Best Back Four Based on Tackles", 
+       subtitle = "The new back four consists of the top tacklers in the defensive third", 
+       x = "Tackles in Defensive Third", y = "Players")
+```
 
-ggplot(data = defensive_action, 
-       mapping = aes(x = , 
-                     fill = party)) +
-  geom_bar(position = ...)
+###  Midfielders
+The heart of all teams is the midfield and Liverpool FC will need three of them.
 
-
-
-
+```{r Midfielders wrangling and graph}
+defensive_action %>%
+select(Player, Def_3rd)%>%
+  group_by(Player)%>%
+  summarize(Player, Def_3rd)%>%
+ggplot(mapping = aes(y = reorder(Player, +Def_3rd), x = Def_3rd, fill = Player))+
+geom_col(position = "dodge", stat = "identity",  bins = 2)+
+  theme_classic()+
 
 
 
