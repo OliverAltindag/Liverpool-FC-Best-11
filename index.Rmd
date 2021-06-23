@@ -2,7 +2,7 @@
 title: "Liverpool Football Clubs Best Statistical 11"
 description: |
   The in-depth rundown of Liverpool Football Club's
-  players and corresponding statistacs.
+  players and corresponding statistics.
 site: distill::distill_website
 ---
 
@@ -21,6 +21,34 @@ view(defensive_action)
 
 goals_and_shot_creation <- read.csv("goals_and_shot_creation.csv", header = TRUE)
 view(goals_and_shot_creation)
-
 ```
+
+##  Goalkeeper
+The first step to creating our starting eleven is the goalkeeper and arguably our most important position.  
+
+```{r Goalkeeper wrangling and graph}
+
+goal_keeping %>% 
+select(Player, GA90) %>%
+  ggplot(mapping = aes(fill = Player, y = GA90))+
+geom_histogram(bins = 6, position = "dodge", color = "black") +
+  labs(title = "Alisson is the Best Liverpool FC Goalkeeper", 
+  subtitle = "Alisson lets in less goals per game on average", 
+  y = "Goals Scored Against Liverpool FC Per 90 Minutes", 
+  x = "", fill = "Player", caption = "Source: Liverpool Premier League Champions 19/20 Complete (2020)")
+```
+
+```{r Defenders wrangling and graph}
+
+ggplot(data = defensive_action, 
+       mapping = aes(x = , 
+                     fill = party)) +
+  geom_bar(position = ...)
+
+
+
+
+
+
+
 
