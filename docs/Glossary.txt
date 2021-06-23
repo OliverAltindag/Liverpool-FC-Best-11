@@ -1,0 +1,330 @@
+****GLOSSARY*****
+
+Nation -- Nationality of the player.
+First, we check our records in international play at senior level.
+Then youth level.
+Then citizenship presented on wikipedia.
+Finally, we use their birthplace when available.
+Pos -- GK - Goalkeepers
+DF - Defenders
+MF - Midfielders
+FW - Forwards
+FB - Fullbacks
+LB - Left Backs
+RB - Right Backs
+CB - Center Backs
+DM - Defensive Midfielders
+CM - Central Midfielders
+WM - Wide Midfielders
+LW - Left Wingers
+RW - Right Wingers
+AM - Attacking Midfielders
+Age -- Age at the season start for league play
+Given on August 1 for winter leagues
+and February 1 for summer leagues.
+
+
+***** Standard Stats*****
+Playing Time
+MP -- Matches Played
+Matches Played by the player or squad
+Starts -- Starts
+Game or games started by player
+Min -- Minutes
+Performance
+Gls -- Goals
+Goals scored or allowed
+Ast -- Assists
+PK -- Penalty Kicks Made
+PKatt -- Penalty Kicks Attempted
+CrdY -- Yellow Cards
+CrdR -- Red Cards
+Per 90 Minutes
+Gls -- Goals Scored per 90 minutes
+Ast -- Assists per 90 minutes
+G+A -- Goals and Assists per 90 minutes
+G-PK -- Goals minus Penalty Kicks made per 90 minutes
+G+A-PK -- Goals plus Assists minus Penalty Kicks made per 90 minutes
+
+
+***** Goal Keeping *****
+Playing Time
+MP -- Matches Played
+Matches Played by the player or squad
+Starts -- Starts
+Game or games started by player
+Min -- Minutes
+Performance
+GA -- Goals Against
+GA90 -- Goals Against per 90 minutes
+SoTA -- Shots on Target Against
+Save% -- Save Percentage
+(Shots on Target Against - Goals Against)/Shots on Target Against
+Note that not all shots on target are stopped by the keeper, many will be stopped by defenders
+W -- Wins
+D -- Draws
+L -- Losses
+CS -- Clean Sheets
+Full matches by goalkeeper where no goals are allowed.
+CS% -- Clean Sheet Percentage
+Percentage of matches that result in clean sheets.
+Penalty Kicks
+PKatt -- Penalty Kicks Attempted
+PKA -- Penalty Kicks Allowed
+PKsv -- Penalty Kicks Saved
+PKm -- Penalty Kicks Missed
+
+
+***** Shooting *****
+Playing Time
+90s -- 90s played
+Minutes played divided by 90
+Standard
+Gls -- Goals
+Goals scored or allowed
+Sh -- Shots Total
+SoT -- Shots on target
+Note: Shots on target do not include penalty kicks
+SoT% -- Shots on target percentage
+Minimum .395 shots per squad game to qualify as a leader
+Note: Shots on target do not include penalty kicks
+Sh/90 -- Shots total per 90 minutes
+Minimum 30 minutes played per squad game to qualify as a leader
+SoT/90 -- Shots on target per 90 minutes
+Minimum 30 minutes played per squad game to qualify as a leader
+Note: Shots on target do not include penalty kicks
+G/Sh -- Goals per shot
+Minimum .395 shots per squad game to qualify as a leader
+G/SoT -- Goals per shot on target
+Minimum .111 shots on target per squad game to qualify as a leader
+Note: Shots on target do not include penalty kicks
+FK -- Shots from free kicks
+PK -- Penalty Kicks Made
+PKatt -- Penalty Kicks Attempted
+
+
+***** Passing *****
+Playing Time
+90s -- 90s played
+Minutes played divided by 90
+Total
+Cmp -- Passes Completed
+Att -- Passes Attempted
+Cmp% -- Pass Completion Percentage
+Minimum 30 minutes played per squad game to qualify as a leader
+TotDist -- Total distance, in yards, that completed passes have traveled in any direction
+PrgDist -- Progressive Distance
+Total distance, in yards, that completed passes have traveled towards the opponent's goal. Note: Passes away from opponent's goal are counted as zero progressive yards.
+Short
+Cmp -- Passes Completed
+Passes of fewer than 5 yards
+Att -- Passes Attempted
+Passes of fewer than 5 yards
+Cmp% -- Pass Completion Percentage
+Passes of fewer than 5 yards
+Minimum 30 minutes played per squad game to qualify as a leader
+Medium
+Cmp -- Passes Completed
+Passes between 5 and 25 yards
+Att -- Passes Attempted
+Passes between 5 and 25 yards
+Cmp% -- Pass Completion Percentage
+Passes between 5 and 25 yards
+Minimum 30 minutes played per squad game to qualify as a leader
+Long
+Cmp -- Passes Completed
+Passes longer than 25 yards
+Att -- Passes Attempted
+Passes longer than 25 yards
+Cmp% -- Pass Completion Percentage
+Passes longer than 25 yards
+Minimum 30 minutes played per squad game to qualify as a leader
+Ast -- Assists
+KP -- Key Passes
+Passes that directly lead to a shot (assisted shots)
+1/3 -- Passes into Final Third
+Completed passes that enter the 1/3 of the pitch closest to the goal
+Not including set pieces
+PPA -- Passes into Penalty Area
+Completed passes into the 18-yard box
+Not including set pieces
+CrsPA -- Crosses into Penalty Area
+Completed crosses into the 18-yard box
+Not including set pieces
+Prog -- Progressive Passes
+Completed passes that move the ball towards the opponent's goal at least 10 yards from its furthest point in the last six passes, or completed passes into the penalty area. Excludes passes from the defending 40% of the pitch
+
+***** Pass Types *****
+Total
+Att -- Passes Attempted
+Pass Types
+Live -- Live-ball passes
+Dead -- Dead-ball passes
+Includes free kicks, corner kicks, kick offs, throw-ins and goal kicks
+FK -- Passes attempted from free kicks
+TB -- Through Balls
+Completed pass sent between back defenders into open space
+Press -- Passes made while under pressure from opponent
+Sw -- Switches
+Passes that travel more than 40 yards of the width of the pitch
+Crs -- Crosses
+CK -- Corner Kicks
+Corner Kicks
+In -- Inswinging Corner Kicks
+Out -- Outswinging Corner Kicks
+Str -- Straight Corner Kicks
+Height
+Ground -- Ground passes
+Low -- Low passes
+Passes that leave the ground, but stay below shoulder-level
+High -- High passes
+Passes that are above shoulder-level at the peak height
+Body Parts
+Left -- Passes attempted using left foot
+Right -- Passes attempted using right foot
+Head -- Passes attempted using head
+TI -- Throw-Ins taken
+Other -- Passes attempted using body parts other than the player's head or feet
+Outcomes
+Cmp -- Passes Completed
+Off -- Offsides
+Out -- Out of bounds
+Int -- Intercepted
+Blocks -- Blocked Passes
+Blocked by the opponent who was standing it the path
+
+***** Goal and Shot Creation *****
+SCA
+SCA -- Shot-Creating Actions
+The two offensive actions directly leading to a shot, such as passes, dribbles and drawing fouls. Note: A single player can receive credit for multiple actions and the shot-taker can also receive credit.
+SCA90 -- Shot-Creating Actions per 90 minutes
+Minimum 30 minutes played per squad game to qualify as a leader
+SCA Types
+PassLive -- Completed live-ball passes that lead to a shot attempt
+PassDead -- Completed dead-ball passes that lead to a shot attempt.
+Includes free kicks, corner kicks, kick offs, throw-ins and goal kicks
+Drib -- Successful dribbles that lead to a shot attempt
+
+***** Defensive Action *****
+Tackles
+Tkl -- Number of players tackled
+TklW -- Tackles Won
+Tackles in which the tackler's team won possession of the ball
+Def 3rd -- Tackles in defensive 1/3
+Mid 3rd -- Tackles in middle 1/3
+Att 3rd -- Tackles in attacking 1/3
+Vs Dribbles
+Tkl -- Number of dribblers tackled
+Att -- Dribbles Contested
+Number of times dribbled past plus number of tackles
+Tkl% -- Percentage of dribblers tackled
+Dribblers tackled divided by dribblers tackled plus times dribbled past
+Minimum .625 dribblers contested per squad game to qualify as a leader
+Past -- Number of times dribbled past by an opposing player
+Pressures
+Press -- Pressures
+Number of times applying pressure to opposing player who is receiving, carrying or releasing the ball
+Succ -- Successful Pressures
+Number of times the squad gained possession withing five seconds of applying pressure
+% -- Successful Pressure Percentage
+Percentage of time the squad gained possession withing five seconds of applying pressure
+Minimum 6.44 pressures per squad game to qualify as a leader
+Def 3rd -- Number of times applying pressure to opposing player who is receiving, carrying or releasing the ball, in the defensive 1/3
+Mid 3rd -- Number of times applying pressure to opposing player who is receiving, carrying or releasing the ball, in the middle 1/3
+Att 3rd -- Number of times applying pressure to opposing player who is receiving, carrying or releasing the ball, in the attacking 1/3
+Blocks
+Blocks -- Number of times blocking the ball by standing in its path
+Sh -- Number of times blocking a shot by standing in its path
+ShSv -- Number of times blocking a shot that was on target, by standing in its path
+Pass -- Number of times blocking a pass by standing in its path
+Int -- Interceptions
+Tkl+Int -- Number of players tackled plus number of interceptions
+Clr -- Clearances
+Err -- Errors
+Mistakes leading to an opponent's shot
+
+***** Possession *****
+Touches
+Touches -- Number of times a player touched the ball. Note: Receiving a pass, then dribbling, then sending a pass counts as one touch
+Def Pen -- Touches in defensive penalty area
+Def 3rd -- Touches in defensive 1/3
+Mid 3rd -- Touches in middle 1/3
+Att 3rd -- Touches in attacking 1/3
+Att Pen -- Touches in attacking penalty area
+Live -- Live-ball touches. Does not include corner kicks, free kicks, throw-ins, kick-offs, goal kicks or penalty kicks
+Dribbles
+Succ -- Dribbles Completed Successfully
+Att -- Dribbles Attempted
+Succ% -- Percentage of Dribbles Completed Successfully
+Minimum .5 dribbles per squad game to qualify as a leader
+#Pl -- Number of Players Dribbled Past
+Megs -- Nutmegs
+Number of times a player dribbled the ball through an opposing player's legs
+Carries
+Carries -- Number of times the player controlled the ball with their feet
+TotDist -- Total distance, in yards, a player moved the ball while controlling it with their feet, in any direction
+PrgDist -- Progressive Distance
+Total distance, in yards, a player moved the ball while controlling it with their feet towards the opponent's goal
+Receiving
+Targ -- Pass Targets
+Number of times a player was the target of an attempted pass
+Rec -- Passes Received
+Number of times a player successfully received a pass
+Rec% -- Passes Received Percentage
+Percentage of time a player successfully received a pass
+Minimum 30 minutes played per squad game to qualify as a leader
+Miscon -- Miscontrols
+Number of times a player failed when attempting to gain control of a ball
+Dispos -- Dispossessed
+Number of times a player loses control of the ball after being tackled by an opposing player. Does not include attempted dribbles
+
+***** Playing Time *****
+Playing Time
+MP -- Matches Played
+Matches Played by the player or squad
+Min -- Minutes
+Mn/MP -- Minutes Per Match Played
+Min% -- Percentage of Minutes Played
+Percentage of team's total minutes in which player was on the pitch
+Player minutes played divided by team total minutes played
+Minimum 30 minutes played per squad game to qualify as a leader
+90s -- 90s played
+Minutes played divided by 90
+Starts
+Starts -- Starts
+Game or games started by player
+Mn/Start -- Minutes Per Match Started
+Minimum 30 minutes played per squad game to qualify as a leader
+Subs
+Subs -- Games as sub
+Game or games player did not start, so as a substitute
+Mn/Sub -- Minutes Per Substitution
+Minimum 30 minutes played per squad game to qualify as a leader
+unSub -- Games as an unused substitute
+Team Success
+PPM -- Points per Match
+Average number of points earned by the team from matches in which the player appeared
+Minimum 30 minutes played per squad game to qualify as a leader
+onG -- Goals scored by team while on pitch
+onGA -- Goals allowed by team while on pitch
++/- -- Plus/Minus
+Goals scored minus goals allowed by the team while the player was on the pitch.
++/-90 -- Plus/Minus per 90 Minutes
+Goals scored minus goals allowed by the team while the player was on the pitch per 90 minutes played.
+Minimum 30 minutes played per squad game to qualify as a leader
+On-Off -- Plus/Minus Net per 90 Minutes
+Net goals per 90 minutes by the team while the player was on the pitch minus net goals allowed per 90 minutes by the team while the player was off the pitch.
+Minimum 30 minutes played per squad game to qualify as a leader
+
+
+***** Scores and Fixtures *****
+Date -- Date listed is local to the match
+Time -- Time listed is local to the match venue
+Time is written in the 24-hour notation
+Your local time is in (·)
+Round -- Round or Phase of Competition
+Day -- Day of week
+GF -- Goals For
+GA -- Goals Against
+Poss -- Possession
+Calculated as the percentage of passes attempted

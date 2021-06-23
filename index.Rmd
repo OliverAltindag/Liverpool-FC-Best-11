@@ -1,0 +1,26 @@
+---
+title: "Liverpool Football Clubs Best Statistical 11"
+description: |
+  The in-depth rundown of Liverpool Football Club's
+  players and corresponding statistacs.
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+
+library(tidyverse)
+library(ggthemes)
+
+goal_keeping <- read.csv("goal_keeping.csv", header = TRUE)
+view(goal_keeping)
+
+defensive_action <- read.csv("defensive_action.csv", header = TRUE)
+view(defensive_action)
+
+goals_and_shot_creation <- read.csv("goals_and_shot_creation.csv", header = TRUE)
+view(goals_and_shot_creation)
+
+```
+
