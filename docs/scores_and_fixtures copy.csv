@@ -1,0 +1,39 @@
+Date,Time,Round,Day,Venue,Result,GF,GA,Opponent,Poss,Attendance,Captain,Referee
+43686,0.833333333,Matchweek 1,Fri,Home,W,4,1,Norwich City,58,53333,Jordan Henderson,Michael Oliver
+43694,0.625,Matchweek 2,Sat,Away,W,2,1,Southampton,63,31712,James Milner,Andre Marriner
+43701,0.729166667,Matchweek 3,Sat,Home,W,3,1,Arsenal,53,53298,Jordan Henderson,Anthony Taylor
+43708,0.729166667,Matchweek 4,Sat,Away,W,3,0,Burnley,63,21762,Jordan Henderson,Chris Kavanagh
+43722,0.520833333,Matchweek 5,Sat,Home,W,3,1,Newcastle Utd,76,51430,Virgil van Dijk,Andre Marriner
+43730,0.6875,Matchweek 6,Sun,Away,W,2,1,Chelsea,45,40638,Jordan Henderson,Michael Oliver
+43736,0.520833333,Matchweek 7,Sat,Away,W,1,0,Sheffield Utd,70,31774,Jordan Henderson,Anthony Taylor
+43743,0.625,Matchweek 8,Sat,Home,W,2,1,Leicester City,51,53322,James Milner,Chris Kavanagh
+43758,0.6875,Matchweek 9,Sun,Away,D,1,1,Manchester Utd,68,73737,Jordan Henderson,Martin Atkinson
+43765,0.6875,Matchweek 10,Sun,Home,W,2,1,Tottenham,68,53222,Jordan Henderson,Anthony Taylor
+43771,0.625,Matchweek 11,Sat,Away,W,2,1,Aston Villa,74,41878,Jordan Henderson,Jonathan Moss
+43779,0.6875,Matchweek 12,Sun,Home,W,3,1,Manchester City,45,53324,Jordan Henderson,Michael Oliver
+43792,0.625,Matchweek 13,Sat,Away,W,2,1,Crystal Palace,59,25486,Jordan Henderson,Kevin Friend
+43799,0.625,Matchweek 14,Sat,Home,W,2,1,Brighton,45,53319,Jordan Henderson,Martin Atkinson
+43803,0.84375,Matchweek 15,Wed,Home,W,5,2,Everton,59,53094,James Milner,Mike Dean
+43806,0.625,Matchweek 16,Sat,Away,W,3,0,Bournemouth,74,10832,Jordan Henderson,Chris Kavanagh
+43813,0.520833333,Matchweek 17,Sat,Home,W,2,0,Watford,68,53311,Jordan Henderson,Andre Marriner
+43825,0.833333333,Matchweek 19,Thu,Away,W,4,0,Leicester City,59,32211,Jordan Henderson,Michael Oliver
+43828,0.6875,Matchweek 20,Sun,Home,W,1,0,Wolves,63,53326,Jordan Henderson,Anthony Taylor
+43832,0.833333333,Matchweek 21,Thu,Home,W,2,0,Sheffield Utd,75,53321,Jordan Henderson,Paul Tierney
+43841,0.729166667,Matchweek 22,Sat,Away,W,1,0,Tottenham,67,61023,Jordan Henderson,Martin Atkinson
+43849,0.6875,Matchweek 23,Sun,Home,W,2,0,Manchester Utd,53,52916,Jordan Henderson,Craig Pawson
+43853,0.833333333,Matchweek 24,Thu,Away,W,2,1,Wolves,53,31746,Jordan Henderson,Michael Oliver
+43859,0.822916667,Matchweek 18,Wed,Away,W,2,0,West Ham,71,59959,Jordan Henderson,Jonathan Moss
+43862,0.625,Matchweek 25,Sat,Home,W,4,0,Southampton,62,53291,Jordan Henderson,Kevin Friend
+43876,0.729166667,Matchweek 26,Sat,Away,W,1,0,Norwich City,64,27110,Jordan Henderson,Stuart Attwell
+43885,0.833333333,Matchweek 27,Mon,Home,W,3,2,West Ham,70,53313,Virgil van Dijk,Jonathan Moss
+43890,0.729166667,Matchweek 28,Sat,Away,L,0,3,Watford,71,21634,Virgil van Dijk,Michael Oliver
+43897,0.520833333,Matchweek 29,Sat,Home,W,2,1,Bournemouth,75,53323,James Milner,Paul Tierney
+44003,0.791666667,Matchweek 30,Sun,Away,D,0,0,Everton,70,,Jordan Henderson,Mike Dean
+44006,0.84375,Matchweek 31,Wed,Home,W,4,0,Crystal Palace,74,,Jordan Henderson,Martin Atkinson
+44014,0.84375,Matchweek 32,Thu,Away,L,0,4,Manchester City,52,,Jordan Henderson,Anthony Taylor
+44017,0.6875,Matchweek 33,Sun,Home,W,2,0,Aston Villa,72,,Virgil van Dijk,Paul Tierney
+44020,0.84375,Matchweek 34,Wed,Away,W,3,1,Brighton,56,,Jordan Henderson,Craig Pawson
+44023,0.625,Matchweek 35,Sat,Home,D,1,1,Burnley,71,,Virgil van Dijk,David Coote
+44027,0.84375,Matchweek 36,Wed,Away,L,1,2,Arsenal,69,,Virgil van Dijk,Paul Tierney
+44034,0.84375,Matchweek 37,Wed,Home,W,5,3,Chelsea,50,,Virgil van Dijk,Andre Marriner
+44038,0.666666667,Matchweek 38,Sun,Away,W,3,1,Newcastle Utd,75,,James Milner,Anthony Taylor

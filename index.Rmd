@@ -43,8 +43,9 @@ geom_histogram(bins = 6, position = "dodge", color = "black") +
   y = "Goals Scored Against Liverpool FC Per 90 Minutes", 
   x = "", fill = "Player", caption = "Source: Liverpool Premier League Champions 19/20 Complete (2020)")
 ```
+###  Goalkeeper: Alisson
 
-###  Defenders
+##  Defenders
 Liverpool FC will need four defensive minded players to protect the newly selected goalkeeper Alisson.  
 
 ```{r Defenders wrangling and graph}
@@ -59,19 +60,29 @@ geom_col(position = "dodge", stat = "identity",  bins = 2)+
        subtitle = "The new back four consists of the top tacklers in the defensive third", 
        x = "Tackles in Defensive Third", y = "Players")
 ```
+###  Defenders: Trent Alexander-Arnold, Virgil Van Dijk, Jordan Henderson, and Fabinho
 
-###  Midfielders
-The heart of all teams is the midfield and Liverpool FC will need three of them.
+
+##  Midfielders
+The heart of all teams is the midfield and their ability to dribble the ball, Liverpool FC will need three of them.
 
 ```{r Midfielders wrangling and graph}
-defensive_action %>%
-select(Player, Def_3rd)%>%
+possession%>%
+select(Player, Succ_)%>%
   group_by(Player)%>%
-  summarize(Player, Def_3rd)%>%
-ggplot(mapping = aes(y = reorder(Player, +Def_3rd), x = Def_3rd, fill = Player))+
+  summarize(Player, Succ_)%>%
+ggplot(mapping = aes(y = reorder(Player, -Succ_), x = Succ_, fill = Player))+
 geom_col(position = "dodge", stat = "identity",  bins = 2)+
   theme_classic()+
+  labs(title = "The Best Possible Middle Three For Liverpool", 
+       subtitle = "The new back four consists of the best dribblers in the team", 
+       x = "Percentage of Succesfull Take-ons", y = "Players")
+```
+ 
+###  Midfielders: Curtis Jones, Joel Matip, and Naby Keita
 
+
+ 
 
 
 
