@@ -1,5 +1,5 @@
 ---
-title: "Liverpool Football Clubs Best Statistical 11"
+title: "Liverpool Football Clubs Best Statistical Eleven"
 description: |
   The in-depth rundown of Liverpool Football Club's
   players and corresponding statistics.
