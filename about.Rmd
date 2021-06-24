@@ -17,11 +17,13 @@ My project, *Liverpool Football Clubs Best Statistical 11*, explores the statist
 ### Goals
 * To establish an understanding of Liverpool FC's best players most important stats
 
-* To  
-  + Poor WIFI 
-  
-"This is data science"  
-~ Preceptor
+* To figure out how Liverpool FC can improve  
+  + The fitness of the squad limits these decisions
 
-[Kane’s Free High School Data Science Bootcamp](https://bootcamp.davidkane.info)
+* To see how accurately statistics represent player performances  
+  
+"You'll Never Walk Alone"  
+~ Gerry & the Pacemakers
+
+[You'll Never Walk alone](https://lnk.to/YNWAstr)
 
