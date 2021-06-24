@@ -1,7 +1,7 @@
 ---
 title: "About this site"
 description: |
-  Some additional details about the website and inpiration behind it
+  Some additional details about the website and inspiration behind it
 ---
 
 ```{r setup, include=FALSE}
@@ -9,10 +9,11 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## About Me
-My name is **Oliver Altindag**, I am a student at Newton North HS who is Liverpool FC super fan. You'll Never Walk Alone!
+My name is **Oliver Altindag**. I am a student at Newton North HS who is a Liverpool FC super fan. You'll Never Walk Alone!
+
 
 ## About the Project
-My project, *Liverpool Football Clubs Best Statistical 11*, explores the statistics of Liverpool Football Club's most succesfull domestic season. 
+My project, *Liverpool Football Clubs Best Statistical 11*, explores the statistics of Liverpool Football Club’s most successful domestic season. 
 
 ### Goals
 * To establish an understanding of Liverpool FC's best players most important stats

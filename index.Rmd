@@ -1,8 +1,7 @@
 ---
-title: "Liverpool Football Clubs Best Statistical Eleven"
+title: "Liverpool Football Club Best Statistical Eleven"
 description: |
-  The in-depth rundown of Liverpool Football Club's
-  players and corresponding statistics.
+  The in-depth rundown of Liverpool Football Clubs players and corresponding statistics.
 site: distill::distill_website
 ---
 
@@ -26,7 +25,7 @@ Standard_stats <- read.csv("Standard_stats.csv", header = TRUE)
 view(Standard_stats)
 ```
 
-###  Goalkeeper
+##  Goalkeeper
 The first step to creating our starting eleven is the goalkeeper and arguably our most important position.  
 
 ```{r Goalkeeper wrangling and graph}
@@ -41,7 +40,7 @@ geom_col(position = "dodge")+
   labs(title = "Alisson is the Best Liverpool FC Goalkeeper", 
   subtitle = "Alisson lets in less goals per game on average", 
   y = "Player", 
-  x = "Goals Scored Against Liverpool Fc Per 90 Minutes", fill = "Player", caption = "Source: https://fbref.com")
+  x = "Goals Scored Against Liverpool FC Per 90 Minutes", fill = "Player", caption = "Source: https://fbref.com")
 ```
 ###  Goalkeeper: Alisson
 
@@ -56,7 +55,8 @@ select(Player, Def_3rd)%>%
 ggplot(mapping = aes(y = reorder(Player, +Def_3rd), x = Def_3rd, fill = Player))+
 geom_col(position = "dodge")+
   theme_classic()+
-  labs(title = "Liverpool FC's Best Back Four Based on Tackles", 
+  labs(title = "
+Liverpool FCs Best Back Four Based on Tackles", 
        subtitle = "The new back four consists of the top tacklers in the defensive third", 
        x = "Tackles in Defensive Third", y = "Players", 
        caption = "Source: https://fbref.com")
@@ -77,13 +77,13 @@ geom_col(position = "dodge")+
   theme_classic()+
   labs(title = "The Best Possible Middle Three For Liverpool", 
        subtitle = "The new back four consists of the best dribblers in the team", 
-       x = "Percentage of Succesfull Take-ons", y = "Players", 
+       x = "Percentage of Successful Take-ons", y = "Players", 
        caption = "Source: https://fbref.com")
 ```
 ###  Midfielders: Curtis Jones, Joel Matip, and Naby Keita
 
 ##  Attackers
-The firepower of Liverpool FC and the goalscorers of any team.
+The firepower of Liverpool FC and the goalscorers of any team. The attackers will consist of the three top scoring players in the team. 
 
 ```{r Attackerrs wrangling and graph}
 Standard_stats%>%
@@ -93,11 +93,12 @@ select(Player, Gs)%>%
 ggplot(mapping = aes(y = reorder(Player, +Gs), x = Gs, fill = Player))+
 geom_col(position = "dodge")+
   theme_classic()+
-  labs(title = "The Highehst Scoring Liverpool FC Front Three", 
+  labs(title = "The Highest Scoring Liverpool FC Front Three", 
        subtitle = "The front three will consist of the top scorers throughout the season", 
        x = "Goals Scored or Allowed", y = "Players", 
        caption = "Source: https://fbref.com")
 ```
+
 ###  Attackers: Mohamed Salah, Roberto Firmino, and Sadio Mane
 
 ##  Final Eleven
