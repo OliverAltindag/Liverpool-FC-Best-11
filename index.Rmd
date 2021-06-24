@@ -22,8 +22,8 @@ view(defensive_action)
 possession <- read.csv("possession.csv", header = TRUE)
 view(possession)
 
-goals_and_shot_creation <- read.csv("goals_and_shot_creation.csv", header = TRUE)
-view(goals_and_shot_creation)
+Standard_stats <- read.csv("Standard_stats.csv", header = TRUE)
+view(Standard_stats)
 ```
 
 ###  Goalkeeper
@@ -41,7 +41,7 @@ geom_histogram(bins = 6, position = "dodge", color = "black") +
   labs(title = "Alisson is the Best Liverpool FC Goalkeeper", 
   subtitle = "Alisson lets in less goals per game on average", 
   y = "Goals Scored Against Liverpool FC Per 90 Minutes", 
-  x = "", fill = "Player", caption = "Source: Liverpool Premier League Champions 19/20 Complete (2020)")
+  x = "", fill = "Player", caption = "Source: https://fbref.com")
 ```
 ###  Goalkeeper: Alisson
 
@@ -54,11 +54,12 @@ select(Player, Def_3rd)%>%
   group_by(Player)%>%
   summarize(Player, Def_3rd)%>%
 ggplot(mapping = aes(y = reorder(Player, +Def_3rd), x = Def_3rd, fill = Player))+
-geom_col(position = "dodge", stat = "identity",  bins = 2)+
+geom_col(position = "dodge")+
   theme_classic()+
   labs(title = "Liverpool FC's Best Back Four Based on Tackles", 
        subtitle = "The new back four consists of the top tacklers in the defensive third", 
-       x = "Tackles in Defensive Third", y = "Players")
+       x = "Tackles in Defensive Third", y = "Players", 
+       caption = "Source: https://fbref.com")
 ```
 ###  Defenders: Trent Alexander-Arnold, Virgil Van Dijk, Jordan Henderson, and Fabinho
 
@@ -72,28 +73,40 @@ select(Player, Succ_)%>%
   group_by(Player)%>%
   summarize(Player, Succ_)%>%
 ggplot(mapping = aes(y = reorder(Player, -Succ_), x = Succ_, fill = Player))+
-geom_col(position = "dodge", stat = "identity",  bins = 2)+
+geom_col(position = "dodge")+
   theme_classic()+
   labs(title = "The Best Possible Middle Three For Liverpool", 
        subtitle = "The new back four consists of the best dribblers in the team", 
-       x = "Percentage of Succesfull Take-ons", y = "Players")
+       x = "Percentage of Succesfull Take-ons", y = "Players", 
+       caption = "Source: https://fbref.com")
 ```
- 
 ###  Midfielders: Curtis Jones, Joel Matip, and Naby Keita
 
+##  Attackers
+The firepower of Liverpool FC and the goalscorers of any team.
+
 ```{r Attackerrs wrangling and graph}
-possession%>%
-select(Player, Succ_)%>%
+Standard_stats%>%
+select(Player, Gs)%>%
   group_by(Player)%>%
-  summarize(Player, Succ_)%>%
-ggplot(mapping = aes(y = reorder(Player, -Succ_), x = Succ_, fill = Player))+
-geom_col(position = "dodge", stat = "identity",  bins = 2)+
+  summarize(Player, Gs)%>%
+ggplot(mapping = aes(y = reorder(Player, +Gs), x = Gs, fill = Player))+
+geom_col(position = "dodge")+
   theme_classic()+
-  labs(title = "The Best Possible Middle Three For Liverpool", 
-       subtitle = "The new back four consists of the best dribblers in the team", 
-       x = "Percentage of Succesfull Take-ons", y = "Players")
+  labs(title = "The Highehst Scoring Liverpool FC Front Three", 
+       subtitle = "The front three will consist of the top scorers throughout the season", 
+       x = "Goals Scored or Allowed", y = "Players", 
+       caption = "Source: https://fbref.com")
 ```
- 
+###  Attackers: Mohamed Salah, Roberto Firmino, and Sadio Mane
+
+##  Final Eleven
+
+Alisson,
+Fabinho,   Virgil Van Dijk,   Jordan Henderson,    Trent Alexander-Arnold,
+Curtis Jones,    Joel Matip,    Naby Keita,
+Mohamed Salah,   Roberto Firmino,   Sadio Mane
+              
 
 
 
