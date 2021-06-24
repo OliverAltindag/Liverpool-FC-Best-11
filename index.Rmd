@@ -31,17 +31,17 @@ The first step to creating our starting eleven is the goalkeeper and arguably ou
 
 ```{r Goalkeeper wrangling and graph}
 
-goal_keeping %>% 
-select(Player, GA90) %>%
-  ggplot(mapping = aes(fill = Player, y = GA90))+
-geom_histogram(bins = 6, position = "dodge", color = "black") +
-  theme(axis.title.x=element_blank(), 
-        axis.text.x=element_blank(), 
-        axis.ticks.x=element_blank())+  
+  goal_keeping %>%
+select(Player, GA90)%>%
+  group_by(Player)%>%
+  summarize(Player, GA90)%>%
+ggplot(mapping = aes(y = reorder(Player, +GA90), x = GA90, fill = Player))+
+geom_col(position = "dodge")+
+  theme_classic()+
   labs(title = "Alisson is the Best Liverpool FC Goalkeeper", 
   subtitle = "Alisson lets in less goals per game on average", 
-  y = "Goals Scored Against Liverpool FC Per 90 Minutes", 
-  x = "", fill = "Player", caption = "Source: https://fbref.com")
+  y = "Player", 
+  x = "Goals Scored Against Liverpool Fc Per 90 Minutes", fill = "Player", caption = "Source: https://fbref.com")
 ```
 ###  Goalkeeper: Alisson
 
@@ -106,6 +106,8 @@ Alisson,
 Fabinho,   Virgil Van Dijk,   Jordan Henderson,    Trent Alexander-Arnold,
 Curtis Jones,    Joel Matip,    Naby Keita,
 Mohamed Salah,   Roberto Firmino,   Sadio Mane
+
+
               
 
 
