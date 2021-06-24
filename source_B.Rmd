@@ -1,0 +1,22 @@
+---
+title: "Source B"
+description: |
+  Detailed notes for Source B
+date: "`r Sys.Date()`"
+output: distill::distill_article
+bibliography: bibliography.bib 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Source B was Gerry & the Pacemakers You'll Never Walk Alone. It was perfect, The site was extremely easy to navigate
+[@YoullNeverWalkAlone]
+Gerry & the Pacemakers You'll Never Walk Alone is a site containing the links to this popular song on other platforms
+
+Learn more about  at Gerry & the Pacemakers You'll Never Walk Alone at <https://lnk.to/YNWAstr>.
+
+
+
+

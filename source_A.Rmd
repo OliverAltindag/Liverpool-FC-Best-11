@@ -1,0 +1,26 @@
+---
+title: "Source A"
+description: |
+  Detailed notes for Source A
+author:
+  - name: Abhijith Chandra Das 
+date: "`2020-08-06`"
+output: distill::distill_article
+bibliography: bibliography.bib
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Source A was Liverpool Premier League Champions 19/20 Complete. It was flawed. The labels were extremely unclear
+[@LiverpoolChampions19-20Complete]
+Liverpool Premier League Champions 19/20 Complete is a dataset based in kaggle.com
+
+Learn more about Liverpool Premier League Champions 19/20 Complete at <https://www.kaggle.com/abhijithchandradas/liverpool-premier-league-champions-1920-complete>.
+
+
+
+
+
