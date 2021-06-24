@@ -81,7 +81,18 @@ geom_col(position = "dodge", stat = "identity",  bins = 2)+
  
 ###  Midfielders: Curtis Jones, Joel Matip, and Naby Keita
 
-
+```{r Attackerrs wrangling and graph}
+possession%>%
+select(Player, Succ_)%>%
+  group_by(Player)%>%
+  summarize(Player, Succ_)%>%
+ggplot(mapping = aes(y = reorder(Player, -Succ_), x = Succ_, fill = Player))+
+geom_col(position = "dodge", stat = "identity",  bins = 2)+
+  theme_classic()+
+  labs(title = "The Best Possible Middle Three For Liverpool", 
+       subtitle = "The new back four consists of the best dribblers in the team", 
+       x = "Percentage of Succesfull Take-ons", y = "Players")
+```
  
 
 
