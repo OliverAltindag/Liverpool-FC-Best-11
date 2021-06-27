@@ -1,7 +1,7 @@
 ---
 title: "Liverpool Football Club Best Statistical Eleven"
 description: |
-  The in-depth rundown of Liverpool Football Clubs players and corresponding statistics.
+  The in-depth rundown of Liverpool Football Club players and corresponding statistics.
 site: distill::distill_website
 ---
 
@@ -56,7 +56,7 @@ ggplot(mapping = aes(y = reorder(Player, +Def_3rd), x = Def_3rd, fill = Player))
 geom_col(position = "dodge")+
   theme_classic()+
   labs(title = "
-Liverpool FCs Best Back Four Based on Tackles", 
+Liverpool FC Best Back Four Based on Tackles", 
        subtitle = "The new back four consists of the top tacklers in the defensive third", 
        x = "Tackles in Defensive Third", y = "Players", 
        caption = "Source: https://fbref.com")
