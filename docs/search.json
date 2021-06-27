@@ -5,8 +5,8 @@
       "title": "About this site",
       "description": "Some additional details about the website and inspiration behind it",
       "author": [],
-      "contents": "\nAbout Me\nMy name is Oliver Altindag. I am a student at Newton North HS who is a Liverpool FC super fan. You’ll Never Walk Alone!\nAbout the Project\nMy project, Liverpool Football Clubs Best Statistical 11, explores the statistics of Liverpool Football Club’s most successful domestic season.\nGoals\nTo establish an understanding of Liverpool FC’s best players most important stats\nTo figure out how Liverpool FC can improve\nThe fitness of the squad limits these decisions\n\nTo see how accurately statistics represent player performances\n“You’ll Never Walk Alone”\nGerry & the Pacemakers\n\nYou’ll Never Walk alone\n\n\n\n",
-      "last_modified": "2021-06-24T17:36:56-04:00"
+      "contents": "\nAbout Me\nMy name is Oliver Altindag. I am a student at Newton North HS who is a Liverpool FC super fan. You’ll Never Walk Alone!\nAbout the Project\nMy project, Liverpool Football Clubs Best Statistical 11, explores the statistics of Liverpool Football Club’s most successful domestic season.\nGoals\nTo establish an understanding of Liverpool FC’s best players most important stats\nTo figure out how Liverpool FC can improve\nThe fitness of the squad limits these decisions\n\nTo see how accurately statistics represent player performances\n“You’ll Never Walk Alone”\nGerry & the Pacemakers\n\nYou’ll Never Walk Alone\n\n\n\n",
+      "last_modified": "2021-06-27T10:04:32-04:00"
     },
     {
       "path": "index.html",
@@ -14,7 +14,7 @@
       "description": "The in-depth rundown of Liverpool Football Clubs players and corresponding statistics.\n",
       "author": [],
       "contents": "\nGoalkeeper\nThe first step to creating our starting eleven is the goalkeeper and arguably our most important position.\n\n\n\nGoalkeeper: Alisson\nDefenders\nLiverpool FC will need four defensive minded players to protect the newly selected goalkeeper Alisson.\n\n\n\nDefenders: Trent Alexander-Arnold, Virgil Van Dijk, Jordan Henderson, and Fabinho\nMidfielders\nThe heart of all teams is the midfield and their ability to dribble the ball, Liverpool FC will need three of them.\n\n\n\nMidfielders: Curtis Jones, Joel Matip, and Naby Keita\nAttackers\nThe firepower of Liverpool FC and the goalscorers of any team. The attackers will consist of the three top scoring players in the team.\n\n\n\nAttackers: Mohamed Salah, Roberto Firmino, and Sadio Mane\nFinal Eleven\nAlisson, Fabinho, Virgil Van Dijk, Jordan Henderson, Trent Alexander-Arnold, Curtis Jones, Joel Matip, Naby Keita, Mohamed Salah, Roberto Firmino, Sadio Mane\n\n\n\n",
-      "last_modified": "2021-06-24T17:37:01-04:00"
+      "last_modified": "2021-06-27T10:04:37-04:00"
     },
     {
       "path": "source_A.html",
@@ -28,7 +28,7 @@
       ],
       "date": "`2020-08-06`",
       "contents": "\nSource A was Liverpool Premier League Champions 19/20 Complete. It was flawed. The labels were extremely unclear (Chandra Das 2020) Liverpool Premier League Champions 19/20 Complete is a dataset based in kaggle.com\nLearn more about Liverpool Premier League Champions 19/20 Complete at https://www.kaggle.com/abhijithchandradas/liverpool-premier-league-champions-1920-complete.\n\n\n\nChandra Das, Abhijith. 2020. “Liverpool Premier League Champions 19/20 Complete.” https://www.kaggle.com/abhijithchandradas/liverpool-premier-league-champions-1920-complete.\n\n\n\n\n",
-      "last_modified": "2021-06-24T17:37:02-04:00"
+      "last_modified": "2021-06-27T10:04:38-04:00"
     },
     {
       "path": "source_B.html",
@@ -36,7 +36,7 @@
       "description": "Detailed notes for Source B\n",
       "author": [],
       "contents": "\nSource B was Gerry & the Pacemakers You’ll Never Walk Alone. It was perfect, The site was extremely easy to navigate (Gerry and Pacemakers 1963) Gerry & the Pacemakers You’ll Never Walk Alone is a site containing the links to this popular song on other platforms\nLearn more about at Gerry & the Pacemakers You’ll Never Walk Alone at https://lnk.to/YNWAstr.\n\n\n\nGerry, and the Pacemakers. 1963. “Gerry & the Pacemakers You’ll Never Walk Alone.” https://lnk.to/YNWAstr.\n\n\n\n\n",
-      "last_modified": "2021-06-24T17:37:03-04:00"
+      "last_modified": "2021-06-27T10:04:39-04:00"
     },
     {
       "path": "sources.html",
@@ -50,7 +50,7 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
-      "last_modified": "2021-06-24T17:37:04-04:00"
+      "last_modified": "2021-06-27T10:04:39-04:00"
     }
   ],
   "collections": []
